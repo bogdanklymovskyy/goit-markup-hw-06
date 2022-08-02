@@ -1601,3 +1601,76 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 
 }
+
+.footer-subscribe {
+    flex-grow: 1;
+    padding-top: 12px;
+}
+
+.subscribe {
+    width: 100%;
+}
+
+.subscribe-form{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.subscribe .input {
+    height: 50px;
+    width: 100%;
+    margin-right: 12px;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--bg-footer);
+    color: var(--footer-text);
+}
+
+.sub-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 10px 29px;
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: var(--accent);
+    color: var(--footer-text);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.sub-button .icon{ 
+    fill: var(--footer-text);
+    margin-left: 10px;
+}
+
+.input-marg {
+    margin-left: 93px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+.title-marg {
+    margin-left: 93px;
+}
