@@ -63,7 +63,7 @@ address {
 }
 
 
-.li1 {
+.header__item {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -75,7 +75,7 @@ address {
     text-decoration: none;
 }
 
-.webStudio {
+.header__logo-text {
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -89,7 +89,7 @@ color: #2196F3;
 text-decoration: none;
 }
 
-.header {
+.header__item-link,.header__ul-item {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -106,7 +106,7 @@ padding: 0;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.header:hover {
+.header__item-link:hover,.header__ul-item:hover {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -118,7 +118,7 @@ color: #2196F3;
 
 }
 
-.header:focus {
+.-link:focus {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -129,7 +129,7 @@ color: #2196F3;
     color: #2196F3;  
 }
 
-.mail {
+.header__mail {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -141,7 +141,7 @@ color: #2196F3;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mail:hover {
+.header__mail:hover {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -154,7 +154,7 @@ color: #2196F3;
 fill: #2196F3;
 }
 
-.mail:focus {
+.header__mail:focus {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -166,7 +166,7 @@ fill: #2196F3;
     fill: #2196F3;
 }
 
-.tel {
+.header__telephone {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -178,7 +178,7 @@ fill: #2196F3;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tel:hover {
+.header__telephone:hover {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -191,7 +191,7 @@ fill: #2196F3;
     fill: #2196F3;
 }
 
-.tel:focus {
+.header__telephone:focus {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -203,7 +203,7 @@ fill: #2196F3;
     fill: #2196F3;
 }
 
-.mail:hover {
+.header__mail:hover {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -216,7 +216,7 @@ fill: #2196F3;
     
 }
 
-.mail:focus {
+.header__mail:focus {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -228,7 +228,7 @@ fill: #2196F3;
     fill: #2196F3;
 }
 
-.tel:hover {
+.header__telephone:hover {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -241,24 +241,24 @@ fill: #2196F3;
     
 }
 
-.mail:hover .contact-icon {
+.header__mail:hover .header__contact-list-item-icon {
     fill: #2196F3;
 }
 
-.tel:hover .contact-icon {
+.header__telephone:hover .header__contact-list-item-icon {
     fill: #2196F3;
 }
 
-.mail:focus .contact-icon {
+.header__mail:focus .header__contact-list-item-icon {
     fill: #2196F3;
 }
 
-.tel:focus .contact-icon {
+.header__telephone:focus .header__contact-list-item-icon {
     fill: #2196F3;
 }
 
 
-.tel:focus {
+.header__telephone:focus {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -287,7 +287,7 @@ fill: #2196F3;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.eff1 {
+.section-one__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -305,7 +305,7 @@ fill: #2196F3;
         width: 696px;
 }
 
-.but {
+.section-one__order-button {
     
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -326,7 +326,7 @@ color: #FFFFFF;
 flex-direction: row;
 }
 
-.sec1 {
+.section-one {
     align-items: center;
     text-align: center;
     
@@ -514,7 +514,7 @@ color: #FFFFFF;
     flex-direction: row;
 }
 
-.li2 {
+.header__contact-list-item {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -527,7 +527,7 @@ text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.li2:hover {
+.header__contact-list-item:hover {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -539,7 +539,7 @@ text-decoration: none;
 
 }
 
-.li2:focus {
+.header__contact-list-item:focus {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -550,11 +550,11 @@ text-decoration: none;
     color: #2196F3;
 }
 
-.inline {
+.header__logo {
     display: inline;
 }
 
-.two {
+.header__logo-link {
     color: #000000;
     text-decoration: none;
     font-family: 'Raleway';
@@ -597,7 +597,7 @@ color: #212121;
     
 }
 
-.p1 {
+.section-two__list-benefits-item-text {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -626,17 +626,17 @@ color: #757575;
 
 }
 
-ul:not(.isk,.sec3,.sec4,.ulpo,.ul1){
+ul:not(.isk,.section-three__list-image,.sec4,.ulpo,.section-two__list-benefits){
 
     display: flex;
 align-items: center;
 }
 
-.ul1 {
+.section-two__list-benefits {
     display: flex;
 }
 
-.inline {
+.header__logo {
     display: flex;
 align-items: center;
 }
@@ -652,15 +652,15 @@ header {
 
 }
 
-.li1:not(.notli1) {
+.header__item:not(.header__item-exception) {
 margin-left: 50px;
 }
 
-.li2:not(.mail) {
+.header__contact-list-item:not(.header__mail) {
 margin-left: 50px;
 }
 
-.sec1 {
+.section-one {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -679,7 +679,7 @@ margin-left: 50px;
     text-align: center;
 }
 
-.h3title {
+.section-two__list-benefits-item-title {
 
     font-family: 'Roboto';
 font-style: normal;
@@ -697,17 +697,17 @@ color: #212121;
     
 }
 
-.sec3 {
+.section-three__list-image {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.img0 {
+.section-three__list-image-item-image {
 
 }
 
-.imgrel {
+.section-three__list-image-item {
     position: relative;
 }
 
@@ -791,7 +791,7 @@ footer {
 .sectionheader:not(.not1) {
 
 }
-.ulmt {
+.header__contact-list {
     display: flex;
     flex-direction: row;
 }
@@ -806,20 +806,20 @@ footer {
     padding-bottom: 20px;
 }
 
-.marg:not(.section02,.sec1) {
+.marg:not(.section-two,.section-one) {
     margin: 0;
     padding-top: 94px;
     padding-bottom: 94px;
     text-align: center;
 }
 
-.section02 {
+.section-two {
     margin: 0;
     padding-top: 94px;
 }
 
 
-.headerflex {
+.header__container {
     display: flex;
     align-items: center;
 }
@@ -828,7 +828,7 @@ nav {
     margin-right: auto;
 }
 
-.punkt {
+.section-two__list-benefits-item-svg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -880,7 +880,7 @@ border-radius: 4px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.contact-icon {
+.header__contact-list-item-icon {
     margin-right: 10px;
     fill: var(--font-p);
 }
@@ -1020,7 +1020,7 @@ footer {
     font-size: 14px;
 }
 
-.sec1 {
+.section-one {
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -1038,7 +1038,7 @@ border-radius: 0px 0px 4px 4px;
     justify-content: center;
 }
 
-.lipunkt {
+.section-two__list-benefits-item {
     padding-right: 30px;
 }
 
@@ -1117,7 +1117,7 @@ footer {
     border-bottom: 1px solid #ECECEC;;
 }
 
-.sec1 {
+.section-one {
 margin-left: auto;
 margin-right: auto;
 }
@@ -1135,7 +1135,7 @@ color: #212121;
 
 }
 
-.img0ul {
+.section-three__list-image {
 gap: 30px;
 }
 
@@ -1150,26 +1150,26 @@ gap: 30px;
 }
 
 
-.active-page {
+.header__active-page {
     color:  #2196F3;
     border-bottom: 4px solid #2196F3;
 }
 
-.active-page::after {
+.header__active-page::after {
     border-bottom: 4px solid #2196F3;
 }
 
-.li1 {
+.header__item {
 
 }
 
-.ulh .header {
+.header__ul-item .header__item-link {
 display: block;
 padding-bottom: 32px;
 padding-top: 32px;
 }
 
-.what-we-do .signature {
+.what-we-do .section-three__list-image-item-signature {
     width: 100%;
     position: absolute;
     left: 0;
@@ -1279,7 +1279,7 @@ color: #FFFFFF;
 }
 
 
-.eff1 {
+.section-one__title {
     margin-bottom: 30px;
 }
 
@@ -1309,10 +1309,14 @@ align-items: center;
 
 .modal-close-button {
     position: absolute;
-    top: 17px;
-    right: 17px;
+    top: 8px;
+    right: 8px;
     background-color: rgba(0, 0, 0, 0);
     border: none;
+}
+
+.modal-close-button:hover {
+    cursor: pointer;
 }
 
 .circle {
@@ -1324,6 +1328,11 @@ align-items: center;
     height: 30px;
     background-position: center;
     margin: 0 auto;
+
+  }
+
+  .close-button-svg {
+ 
   }
 
   .is-hidden {
@@ -1357,6 +1366,7 @@ align-items: center;
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+
 }
 
 .close {
