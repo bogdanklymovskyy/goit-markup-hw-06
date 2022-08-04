@@ -1454,6 +1454,12 @@ color: #757575;
     border: 1px solid rgba(33, 33, 33, 0.2);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.01em;
 }
 
 .modal-position {
@@ -1541,6 +1547,19 @@ color: rgba(117, 117, 117, 0.5);
     border-radius: 2px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .icon-policy {
     opacity: 0;
     flex-shrink: 0;
@@ -1579,6 +1598,8 @@ color: #757575;
 
 .terms-link {
     color: var(--accent);
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .button-submit {
@@ -1657,6 +1678,11 @@ color: #FFFFFF;
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
 }
 
 .sub-button .icon{ 
@@ -1684,3 +1710,5 @@ color: rgba(255, 255, 255, 0.6);
 .title-marg {
     margin-left: 93px;
 }
+
+
